@@ -9,7 +9,7 @@
 
 .container {
     max-width: 1300px;
-    width:100%;
+    width: 100%;
     margin: auto;
     padding: 100px 15px;
 }
@@ -95,7 +95,7 @@
     margin-bottom: 45px;
 }
 
-.button{
+.button {
     color: black;
     background-color: aliceblue;
     box-shadow: #df6161 4px 5px 0px;
@@ -406,9 +406,7 @@
     }
 }
 
-.lall{
-    
-}
+.lall {}
 
 .lall h1 {
     font-size: 50px;
@@ -417,7 +415,7 @@
 
 }
 
-.card{
+.card {
     display: inline-block;
     border-radius: 10px;
     border: solid #de857f;
@@ -428,15 +426,15 @@
     background-image: url(img/portfolio/site1.png);
 }
 
-.project2{
+.project2 {
     background-image: url(img/portfolio/site2.png);
 }
 
-.project3{
+.project3 {
     background-image: url(img/portfolio/site3.png);
 }
 
-.project4{
+.project4 {
     background-image: url(img/portfolio/site4.png);
 }
 
@@ -446,41 +444,75 @@
     margin-bottom: 35px;
 }
 
-.contact{
-    background-image: linear-gradient( #da7f7e, #da7f7e);
+.contact {
+    background-image: linear-gradient(#da7f7e, #da7f7e);
     text-align: center;
-} 
+}
 
-.contact .container{
+.contact .container {
     padding: 50px 15px;
 }
 
-@media (max-width: 412px){
-.cre-ate h1{
-    font-size: 40px;
-}
-.shtuka3{
-display: block;
-width:100%;
+@media (max-width: 412px) {
+    .cre-ate h1 {
+        font-size: 35px;
+    }
 
-}
-.halfr{
-    display: block;
-    width:100%;
-}
-.card{
-width:100%;
+    .shtuka3 {
+        display: block;
+        width: 100%;
+
+    }
+
+    .halfr {
+        display: block;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    .halfl {
+        width: 100%;
+    }
+
+    .services {
+        height: fit-content;
+    }
+
+    .menu {
+        position: static;
+    }
+
+    .text {
+        float: none;
+    }
+
+    .cre-ate {
+        z-index: 2;
+    }
+
+    .varvar{
+        height: fit-content;
+         background-color: transparent;
+    }
+
+    .varvarcontent{
+        height: fit-content;
+        position: static;
+    }
+
+    .varvarbg{
+        z-index: -1;
+    }
+
+    .sredni{
+        left: 0%;
+    }
 }
 
-.menu a{
-    display: block;
-}
-
-.halfl{
-width: 100%;
-}
-
-.services{
-    height: fit-content;
-}
-}
