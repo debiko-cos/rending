@@ -514,5 +514,9 @@
     .sredni{
         left: 0%;
     }
+
+    .sectioncontainer{
+        position: relative;
+    }
 }
 
